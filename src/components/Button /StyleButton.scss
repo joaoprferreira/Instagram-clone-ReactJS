@@ -7,8 +7,13 @@
     height: 44px;
     border-radius: 5px;
     background-color: #3797EF;
-    font-size: SF Pro Text;
-    color: #FFFFFF;
     border:none;
+
+    .TextButtonLogin{
+      font-size: SF Pro Text;
+      color: #FFFFFF;
+      font: 500 bold 0.9rem;
+    }
+    
   }
 }

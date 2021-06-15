@@ -1,0 +1,15 @@
+@import "../../StyleGlobal";
+
+.ComponentLoginInFacebook{
+  display: flex;
+
+  .icon {
+    margin-right: 10px;
+  }
+
+  .Text {
+    font-family: SF Pro Text;
+    color: $coloBlue;
+  }
+
+}

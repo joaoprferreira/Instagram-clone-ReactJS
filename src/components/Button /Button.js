@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function() {
+import "./StyleButton.scss"
+
+
+
+export default function Button()  {
   return (
-    <container>
-      <button>ola</button>
-    </container>
+      <button className="ButtonLogin">Log in</button>
   )
 }

@@ -1,0 +1,14 @@
+@import "../../StyleGlobal";
+
+
+.ButtonLogin {
+  @media screen and ( max-width:$break-width){
+    width: 17rem;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #3797EF;
+    font-size: SF Pro Text;
+    color: #FFFFFF;
+    border:none;
+  }
+}

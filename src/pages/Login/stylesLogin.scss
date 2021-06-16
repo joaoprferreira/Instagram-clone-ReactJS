@@ -12,10 +12,24 @@
     overflow: hidden;
 
     .container-or{
-      width: 100px;
-      background-color: khaki;
+      width: 17rem;
       display: flex;
       justify-content: space-between;
+      margin-top: 5px;
+
+      hr {
+        width:100%;       
+        size:1.5px;
+        background-color:rgba(82, 82, 82, 0.021);
+      }
+
+      .Text-or{
+        color:rgba(0, 0, 0, 0.4);
+        margin: 0px 10px 0px 10px;
+        font-family: $FontMain;
+        font-weight: 500;
+        font-size: 13px;
+      }
     }
   }
   

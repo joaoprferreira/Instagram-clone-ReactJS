@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Button from '../../components/Button /Button'
+import { Create } from '../../components/CreateAcount/CreateAcount'
 import { Forgot } from '../../components/ForgotPassword/ForgotPassword'
 
 
@@ -22,9 +23,11 @@ export default function Login() {
       <Button />
       <LoginFacebook />
       <div className="container-or">
-        <hr width="50%" size={1} color="#000000 20%" />
-        <hr width="50%" size={1} color="#000000 20%" />
+        <hr />
+        <span className="Text-or">OR</span>
+        <hr />
       </div>
+      <Create />
     </div>
   )
 }

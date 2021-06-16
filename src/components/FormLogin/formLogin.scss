@@ -1,0 +1,27 @@
+@import "../../StyleGlobal";
+
+@mixin StyleForm {
+  width: 17rem;
+  height: 2.75rem;
+  border-radius: 5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+  background: $BackgroundForm;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.formularios {
+  @media screen and (max-width: $break-width) {
+    display: flex;
+    flex-direction: column;
+
+    .inputEmail {
+     @include StyleForm();
+    }
+
+    .inputSenha {
+     @include StyleForm();
+    }
+  }
+}

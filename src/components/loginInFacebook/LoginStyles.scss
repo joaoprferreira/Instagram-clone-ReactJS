@@ -1,15 +1,17 @@
 @import "../../StyleGlobal";
 
-.ComponentLoginInFacebook{
-  display: flex;
+.ComponentLoginInFacebook {
+  @media screen and (max-width: $break-width) {
+    display: flex;
+    margin: 30px; 
 
-  .icon {
-    margin-right: 10px;
+    .icon {
+      margin-right: 10px;
+    }
+
+    .Text {
+      font-family: SF Pro Text;
+      color: $coloBlue;
+    }
   }
-
-  .Text {
-    font-family: SF Pro Text;
-    color: $coloBlue;
-  }
-
 }

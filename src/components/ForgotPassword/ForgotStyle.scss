@@ -1,0 +1,13 @@
+@import "../../StyleGlobal";
+
+.Esqueceu-senha {
+  @media screen and (max-width: $break-width) {
+    font-family: $FontMain;
+    font-weight: 500;
+    font-size: 0.69rem;
+    color: $coloBlue;
+    left: 5rem;
+    /* float: left; */
+    position: relative;
+  }
+} 

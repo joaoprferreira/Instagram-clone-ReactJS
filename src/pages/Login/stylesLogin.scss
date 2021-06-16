@@ -1,0 +1,22 @@
+@import "../../StyleGlobal";
+
+.container-pai {
+  overflow: hidden;
+  @media screen and (max-width: $break-width) {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+
+    .container-or{
+      width: 100px;
+      background-color: khaki;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+}

@@ -1,3 +1,9 @@
 @import "./utilities/variables/fonts";
 @import "./utilities/variables/mediaQuery";
-@import "./utilities/variables/colors"
+@import "./utilities/variables/colors";
+
+@mixin Center(){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
